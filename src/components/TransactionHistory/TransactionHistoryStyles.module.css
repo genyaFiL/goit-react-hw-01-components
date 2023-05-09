@@ -14,7 +14,7 @@ th {
 
 th {
   text-transform: uppercase;
-  background-color: #a2beff;
+  background-color: #c5c5c5;
   color: #ffffff;
 }
 
@@ -23,7 +23,7 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #e0e7f8;
+  background-color: #eaeaea;
 }
 
 tr:nth-child(2n + 1) {
