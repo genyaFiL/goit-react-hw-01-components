@@ -1,0 +1,31 @@
+.transactionHistory {
+  margin: 20px auto;
+  border: 1px solid black;
+  border-spacing: 0px;
+  text-align: center;
+  color: grey;
+}
+tr,
+td,
+th {
+  border: 1px solid black;
+  padding: 10px 50px 10px 50px;
+}
+
+th {
+  text-transform: uppercase;
+  background-color: #a2beff;
+  color: #ffffff;
+}
+
+td {
+  text-transform: capitalize;
+}
+
+tr:nth-child(even) {
+  background-color: #e0e7f8;
+}
+
+tr:nth-child(2n + 1) {
+  background-color: #ffffff;
+}
