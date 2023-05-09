@@ -19,7 +19,7 @@
 .statList {
   display: flex;
   justify-content: center;
-
+  gap: 5px;
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -38,12 +38,12 @@
 }
 
 .label {
-  color: grey;
+  color: white;
 }
 
 .percentage {
   font-weight: 600;
   font-size: 16px;
   line-height: calc(30 / 16);
-  color: black;
+  color: white;
 }
