@@ -1,0 +1,25 @@
+.online {
+  background-color: green;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.offline {
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  gap: 10px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 6px;
+  border: 1px solid black;
+  color: grey;
+}
